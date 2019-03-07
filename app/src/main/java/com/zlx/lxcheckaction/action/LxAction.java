@@ -37,7 +37,7 @@ public class LxAction {
     }
 
     //如果上一条valid没有通过，是不允许再发起call的
-    public void doAction() {
+    public void doCheck() {
 
         Valid lastValid = actionUnit.getLastValid();
         //如果上一条valid没有通过，是不允许再发起doAction的
